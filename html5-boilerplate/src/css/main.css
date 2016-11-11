@@ -92,33 +92,68 @@ textarea {
 body {
    	width: 90%;
 	margin:0 auto;
+	background-color: #bfbfbf;
 }
 #content {
-	overflow: auto;
 }
 #nav, #feature, #footer {
 	margin: 1%;
 }
-.column1, .column2, .column3 {
-	width: 31.3%;
-	float: left;
-	margin: 1%;
+.column1 {
+	width: 40%;;
+	padding: 30px 30px 30px 30px;
+	border-style: solid;
+	position: fixed;
+	bottom: 20px;
+	
 }
+
 .column3 {
-	margin-right: 0%;
+	width: 31.3%;
+	padding: 30px 30px 30px 30px; 
+	border-style: dashed;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
 }
+
+
+
 li {
 	display: inline;
 	padding: 0.5em;
+	float: right;
 }
-#nav, #footer {
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+#nav {
+	padding-top: 10px;
 	background-color: #efefef;
 	padding: 0.5em 0;
 }
 #feature, .article {
-	height: 10em;
+
 	margin-bottom: 1em;
 	background-color: #efefef;
+	border-style: dotted;
 }
 
 /* ==========================================================================
